@@ -4,7 +4,7 @@
     "keywords": [
         "universal package layout",
         "standard package layout",
-        "new project",
+        "IPInfo",
         "project layout"
     ],
     "homepage": "https://www.phpexperts.pro/",
@@ -32,11 +32,11 @@
     },
     "autoload": {
         "psr-4": {
-            "PHPExperts\\NewProject\\" : "src/"
+            "Kaelynlayne\\IPInfo\\" : "src/"
         }
     },
     "autoload-dev": {
-        "psr-4": { "PHPExperts\\NewProject\\Tests\\" : "tests/" }
+        "psr-4": { "Kaelynlayne\\IPInfo\\Tests\\" : "tests/" }
     },
     "config": {
         "classmap-authoritative": true
